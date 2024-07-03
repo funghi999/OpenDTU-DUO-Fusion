@@ -76,8 +76,8 @@ export default defineComponent({
                 this.systemDataList.git_is_hash = true;
             }
 
-            const fetchUrl =
-                'https://api.github.com/repos/tbnobody/OpenDTU/compare/' + this.systemDataList.git_hash + '...HEAD';
+            const fetchUrl = "https://api.github.com/repos/funghi999/openDTU-DUO-Fusion/compare/"
+                + this.systemDataList.git_hash + "...HEAD";
 
             fetch(fetchUrl)
                 .then((response) => {
