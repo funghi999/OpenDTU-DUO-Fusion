@@ -607,9 +607,9 @@
         "NewsUpdates": "Neuigkeiten und Updates",
         "NewsUpdatesBody": "Neue Updates sind auf Github zu finden: <a href=\"https://github.com/funghi999/OpenDTU-DUO-Fusion\" target=\"_blank\">https://github.com/funghi999/OpenDTU-DUO-Fusion</a>",
         "ErrorReporting": "Fehlerberichte",
-        "ErrorReportingBody": "Bitte melden Sie Probleme über die Ticketverwaltung von <a href=\"https://github.com/tbnobody/OpenDTU/issues\" target=\"_blank\">Github</a>.",
+        "ErrorReportingBody": "Bitte melden Sie Probleme über die Ticketverwaltung von <a href=\"https://github.com/funghi999/OpenDTU-DUO-Fusion/issues\" target=\"_blank\">Github</a>.",
         "Discussion": "Diskussion",
-        "DiscussionBody": "Diskutieren Sie mit uns auf <a href=\"https://discord.gg/WzhxEY62mB\" target=\"_blank\">Discord</a> oder <a href=\"https://github.com/tbnobody/OpenDTU/discussions\" target=\"_blank\">Github</a>"
+        "DiscussionBody": "Diskutieren Sie mit uns auf <a href=\"https://discord.gg/WzhxEY62mB\" target=\"_blank\">Discord</a> oder <a href=\"https://github.com/funghi999/OpenDTU-DUO-Fusion/discussions\" target=\"_blank\">Github</a>"
     },
     "hints": {
         "RadioProblem": "Es konnte keine Verbindung zu einem der konfigurierten Funkmodule hergestellt werden. Bitte überprüfen Sie die Verdrahtung.",

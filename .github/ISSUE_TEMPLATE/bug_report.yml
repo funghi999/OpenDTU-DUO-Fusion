@@ -10,13 +10,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        #### Have a question? 👉 [Start a new discussion](https://github.com/tbnobody/OpenDTU/discussions/new) or [ask in chat](https://discord.gg/WzhxEY62mB).
+        #### Have a question? 👉 [Start a new discussion](https://github.com/funghi999/OpenDTU-DUO-Fusion/discussions/new) or [ask in chat](https://discord.gg/WzhxEY62mB).
 
         #### Before opening an issue, please double check:
 
         - [Documentation](https://www.opendtu.solar).
         - [The FAQs](https://www.opendtu.solar/firmware/faq/).
-        - [Existing issues and discussions](https://github.com/tbnobody/OpenDTU/search?q=&type=issues).
+        - [Existing issues and discussions](https://github.com/funghi999/OpenDTU-DUO-Fusion/search?q=&type=issues).
   - type: textarea
     id: what-happened
     attributes:
