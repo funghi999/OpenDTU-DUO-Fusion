@@ -83,7 +83,7 @@ export default defineComponent({
             }
 
             const fetchUrl =
-                'https://api.github.com/repos/tbnobody/OpenDTU/compare/' +
+                'https://api.github.com/repos/funghi999/OpenDTU-DUO-Fusion/compare/' +
                 this.systemDataList.git_hash +
                 '...' +
                 this.systemDataList.git_branch;
