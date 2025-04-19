@@ -223,7 +223,8 @@ void DisplayGraphicClass::setStartupDisplay()
     }
 
     _display->clearBuffer();
-    printText("DTU-Fusion", 0);
+    printText("openDTU", 0);
+    printText("DUO-Fusion", 1);
     _display->sendBuffer();
 }
 
