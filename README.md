@@ -1,9 +1,9 @@
 # OpenDTU
 
-[![OpenDTU Build](https://github.com/tbnobody/OpenDTU/actions/workflows/build.yml/badge.svg)](https://github.com/tbnobody/OpenDTU/actions/workflows/build.yml)
-[![cpplint](https://github.com/tbnobody/OpenDTU/actions/workflows/cpplint.yml/badge.svg)](https://github.com/tbnobody/OpenDTU/actions/workflows/cpplint.yml)
-[![Yarn Linting](https://github.com/tbnobody/OpenDTU/actions/workflows/yarnlint.yml/badge.svg)](https://github.com/tbnobody/OpenDTU/actions/workflows/yarnlint.yml)
-[![Yarn Prettier](https://github.com/tbnobody/OpenDTU/actions/workflows/yarnprettier.yml/badge.svg)](https://github.com/tbnobody/OpenDTU/actions/workflows/yarnprettier.yml)
+[![OpenDTU Build](https://github.com/funghi999/OpenDTU-DUO-Fusion/actions/workflows/build.yml/badge.svg)](https://github.com/funghi999/OpenDTU-DUO-Fusion/actions/workflows/build.yml)
+[![cpplint](https://github.com/funghi999/OpenDTU-DUO-Fusion/actions/workflows/cpplint.yml/badge.svg)](https://github.com/funghi999/OpenDTU-DUO-Fusion/actions/workflows/cpplint.yml)
+[![Yarn Linting](https://github.com/funghi999/OpenDTU-DUO-Fusion/actions/workflows/yarnlint.yml/badge.svg)](https://github.com/funghi999/OpenDTU-DUO-Fusion/actions/workflows/yarnlint.yml)
+[![Yarn Prettier](https://github.com/funghi999/OpenDTU-DUO-Fusion/actions/workflows/yarnprettier.yml/badge.svg)](https://github.com/funghi999/OpenDTU-DUO-Fusion/actions/workflows/yarnprettier.yml)
 
 ## !! IMPORTANT UPGRADE NOTES !!
 
@@ -16,8 +16,12 @@ It was the goal to replace the original Hoymiles DTU (Telemetry Gateway) with th
 
 ## Documentation
 
-The documentation can be found [here](https://tbnobody.github.io/OpenDTU-docs/).
+The origin documentation of openDTU can be found [here](https://tbnobody.github.io/OpenDTU-docs/).
 Please feel free to support and create a PR in [this](https://github.com/tbnobody/OpenDTU-docs) repository to make the documentation even better.
+
+### Documentation for openDTU-DUO-Fusion
+
+* Will comming soon!
 
 ## Breaking changes
 
@@ -44,3 +48,7 @@ Generated using: `git log --date=short --pretty=format:"* %h%x09%ad%x09%s" | gre
 ## Currently supported Inverters
 
 A list of all currently supported inverters can be found [here](https://www.opendtu.solar/hardware/inverter_overview/)
+
+## Outline
+
+A very special thank you to Thomas Basler (tbnobody), the author of the original [OpenDTU](https://github.com/tbnobody/OpenDTU)  project. You are doing an excellent job!

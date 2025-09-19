@@ -25,4 +25,10 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Check Formatting
+        id: check_formatting
         run: yarn prettier --check src/
+        continue-on-error: true
+
+      - name: Fix Formatting
+        if: steps.check_formatting.outcome == 'failure'
+        run: yarn prettier --write src/

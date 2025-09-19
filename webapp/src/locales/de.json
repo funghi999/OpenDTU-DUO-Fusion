@@ -631,11 +631,11 @@
         "ProjectOriginBody3": "Die Software wurde nach bestem Wissen und Gewissen entwickelt. Dennoch kann keine Haftung für eine Fehlfunktion oder einen Garantieverlust des Wechselrichters übernommen werden.",
         "ProjectOriginBody4": "OpenDTU ist frei verfügbar. Wenn du Geld für die Software bezahlt hast, wurdest du wahrscheinlich abgezockt.",
         "NewsUpdates": "Neuigkeiten und Updates",
-        "NewsUpdatesBody": "Neue Updates findest du auf <a href=\"https://github.com/tbnobody/OpenDTU\" target=\"_blank\">Github</a>",
+        "NewsUpdatesBody": "Neue Updates sind auf Github zu finden: <a href=\"https://github.com/funghi999/OpenDTU-DUO-Fusion\" target=\"_blank\">https://github.com/funghi999/OpenDTU-DUO-Fusion</a>",
         "ErrorReporting": "Fehlerberichte",
-        "ErrorReportingBody": "Bitte melde Probleme über die Ticketverwaltung von <a href=\"https://github.com/tbnobody/OpenDTU/issues\" target=\"_blank\">Github</a>.",
+        "ErrorReportingBody": "Bitte melde Probleme über die Ticketverwaltung von <a href=\"https://github.com/funghi999/OpenDTU-DUO-Fusion/issues\" target=\"_blank\">Github</a>.",
         "Discussion": "Diskussion",
-        "DiscussionBody": "Diskutiere mit uns auf <a href=\"https://discord.gg/46hWaXsn\" target=\"_blank\">Discord</a> oder <a href=\"https://github.com/tbnobody/OpenDTU/discussions\" target=\"_blank\">Github</a>"
+        "DiscussionBody": "Diskutiere mit uns auf <a href=\"https://discord.gg/WzhxEY62mB\" target=\"_blank\">Discord</a> oder <a href=\"https://github.com/funghi999/OpenDTU-DUO-Fusion/discussions\" target=\"_blank\">Github</a>"
     },
     "hints": {
         "RadioProblem": "Es konnte keine Verbindung zu einem der konfigurierten Funkmodule hergestellt werden. Bitte überprüfe die Verdrahtung.",

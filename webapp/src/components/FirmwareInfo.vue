@@ -18,12 +18,8 @@
                     <tr>
                         <th>{{ $t('firmwareinfo.FirmwareVersion') }}</th>
                         <td>
-                            <a
-                                :href="versionInfoUrl"
-                                target="_blank"
-                                v-tooltip
-                                :title="$t('firmwareinfo.FirmwareVersionHint')"
-                            >
+                            <a :href="versionInfoUrl" target="_blank" v-tooltip
+                                :title="$t('firmwareinfo.FirmwareVersionHint')">
                                 {{ systemStatus.git_hash }}
                             </a>
                         </td>
@@ -40,31 +36,18 @@
                         <th>{{ $t('firmwareinfo.FirmwareUpdate') }}</th>
                         <td>
                             <div class="form-check form-check-inline form-switch">
-                                <input
-                                    v-model="modelAllowVersionInfo"
-                                    class="form-check-input"
-                                    type="checkbox"
-                                    role="switch"
-                                    v-tooltip
-                                    :title="$t('firmwareinfo.FrmwareUpdateAllow')"
-                                />
+                                <input v-model="modelAllowVersionInfo" class="form-check-input" type="checkbox"
+                                    role="switch" v-tooltip :title="$t('firmwareinfo.FrmwareUpdateAllow')" />
                                 <label class="form-check-label">
-                                    <a
-                                        v-if="modelAllowVersionInfo && systemStatus.update_url !== undefined"
-                                        :href="systemStatus.update_url"
-                                        target="_blank"
-                                        v-tooltip
-                                        :title="$t('firmwareinfo.FirmwareUpdateHint')"
-                                    >
+                                    <a v-if="modelAllowVersionInfo && systemStatus.update_url !== undefined"
+                                        :href="systemStatus.update_url" target="_blank" v-tooltip
+                                        :title="$t('firmwareinfo.FirmwareUpdateHint')">
                                         <span class="badge" :class="systemStatus.update_status">
                                             {{ systemStatus.update_text }}
                                         </span>
                                     </a>
-                                    <span
-                                        v-else-if="modelAllowVersionInfo"
-                                        class="badge"
-                                        :class="systemStatus.update_status"
-                                    >
+                                    <span v-else-if="modelAllowVersionInfo" class="badge"
+                                        :class="systemStatus.update_status">
                                         {{ systemStatus.update_text }}
                                     </span>
                                 </label>
@@ -126,9 +109,9 @@ export default defineComponent({
         },
         versionInfoUrl(): string {
             if (this.systemStatus.git_is_hash) {
-                return 'https://github.com/tbnobody/OpenDTU/commits/' + this.systemStatus.git_hash;
+                return 'https://github.com/funghi999/OpenDTU-DUO-Fusion/commits/' + this.systemStatus.git_hash;
             }
-            return 'https://github.com/tbnobody/OpenDTU/releases/tag/' + this.systemStatus.git_hash;
+            return 'https://github.com/funghi999/OpenDTU-DUO-Fusion/releases/tag/' + this.systemStatus.git_hash;
         },
     },
 });
