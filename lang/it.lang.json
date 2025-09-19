@@ -113,6 +113,7 @@
             "7015": "Hass topic must not contain space characters!",
             "7016": "LWT QOS must not greater then {max}!",
             "7017": "Client ID must not longer then {max} characters!",
+            "7018": "Hass topic must end with slash (/)!",
             "8001": "IP address is invalid!",
             "8002": "Netmask is invalid!",
             "8003": "Gateway is invalid!",
@@ -280,12 +281,7 @@
             "Task_tit": "TCP/IP",
             "Task_looptask": "Arduino Main Loop",
             "Task_asynctcp": "Async TCP",
-            "Task_mqttclient": "MQTT Client",
-            "Task_huaweican0": "AC Charger CAN",
-            "Task_pmsdm": "PowerMeter (SDM)",
-            "Task_pmhttpjson": "PowerMeter (HTTP+JSON)",
-            "Task_pmsml": "PowerMeter (Serial SML)",
-            "Task_pmhttpsml": "PowerMeter (HTTP+SML)"
+            "Task_mqttclient": "MQTT Client"
         },
         "radioinfo": {
             "RadioInformation": "Info Transceiver Radio",
@@ -654,7 +650,7 @@
             "ErrorReporting": "Segnalazione Errori",
             "ErrorReportingBody": "Per favore segnala eventuali problemi utilizzando le funzionalità della piattaforma <a href=\"https://github.com/tbnobody/OpenDTU/issues\" target=\"_blank\">Github</a>",
             "Discussion": "Discussioni",
-            "DiscussionBody": "Puoi avviare una discussione con noi su <a href=\"https://discord.gg/WzhxEY62mB\" target=\"_blank\">Discord</a> o <a href=\"https://github.com/tbnobody/OpenDTU/discussions\" target=\"_blank\">Github</a>"
+            "DiscussionBody": "Puoi avviare una discussione con noi su <a href=\"https://discord.gg/46hWaXsn\" target=\"_blank\">Discord</a> o <a href=\"https://github.com/tbnobody/OpenDTU/discussions\" target=\"_blank\">Github</a>"
         },
         "hints": {
             "RadioProblem": "Non è possibile dialogare con il modulo radio selezionato. Controlla i collegamenti alla radio.",
@@ -716,6 +712,11 @@
             "LogLevel": "Log Level",
             "DefaultLevel": "Default log level",
             "Module": "Module",
+            "Module_CORE": "Nucleo ESP-IDF",
+            "Module_hoymiles": "RF Hoymiles",
+            "Module_mqtt": "Client MQTT",
+            "Module_network": "Rete",
+            "Module_webapi": "API Web",
             "CoreHint": "Warning: A too detailed log level of the CORE module can significantly impact performance and lead to unpredictable behavior. The log level setting should only be temporarily adjusted for targeted troubleshooting. The default setting 'Error' is sufficient for normal operation.",
             "log_inherit": "Inherit from default",
             "log_none": "None",

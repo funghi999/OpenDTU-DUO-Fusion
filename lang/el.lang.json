@@ -113,6 +113,7 @@
             "7015": "Το θέμα Hass δεν πρέπει να περιέχει χαρακτήρες διαστήματος!",
             "7016": "Το LWT QOS δεν πρέπει να είναι μεγαλύτερο από το {max}!",
             "7017": "Το αναγνωριστικό πελάτη δεν πρέπει να υπερβαίνει τους {max} χαρακτήρες!",
+            "7018": "Hass topic must end with slash (/)!",
             "8001": "Η διεύθυνση IP δεν είναι έγκυρη!",
             "8002": "Η μάσκα δικτύου δεν είναι έγκυρη!",
             "8003": "Η πύλη δεν είναι έγκυρη!",
@@ -280,12 +281,7 @@
             "Task_tit": "TCP/IP",
             "Task_looptask": "Κύριος βρόχος Arduino",
             "Task_asynctcp": "Ασυγχρονισμός TCP",
-            "Task_mqttclient": "Πελάτης MQTT",
-            "Task_huaweican0": "Φορτιστής AC CAN",
-            "Task_pmsdm": "Μετρητής ενέργειας (SDM)",
-            "Task_pmhttpjson": "Μετρητής ενέργειας (HTTP+JSON)",
-            "Task_pmsml": "Μετρητής ενέργειας (Serial SML)",
-            "Task_pmhttpsml": "Μετρητής ενέργειας (HTTP+SML)"
+            "Task_mqttclient": "Πελάτης MQTT"
         },
         "radioinfo": {
             "RadioInformation": "Πληροφορίες Ραδιοφώνου",
@@ -654,7 +650,7 @@
             "ErrorReporting": "Αναφορά σφαλμάτων",
             "ErrorReportingBody": "Αναφέρετε προβλήματα χρησιμοποιώντας τη δυνατότητα που παρέχεται από το <a href=\"https://github.com/tbnobody/OpenDTU/issues\" target=\"_blank\">Github</a>",
             "Discussion": "Συζήτηση",
-            "DiscussionBody": "Συζητήστε μαζί μας στο <a href=\"https://discord.gg/WzhxEY62mB\" target=\"_blank\">Discord</a> ή στο <a href=\"https://github.com/tbnobody /OpenDTU/discussions\" target=\"_blank\">Github</a>"
+            "DiscussionBody": "Συζητήστε μαζί μας στο <a href=\"https://discord.gg/46hWaXsn\" target=\"_blank\">Discord</a> ή στο <a href=\"https://github.com/tbnobody /OpenDTU/discussions\" target=\"_blank\">Github</a>"
         },
         "hints": {
             "RadioProblem": "Δεν ήταν δυνατή η σύνδεση σε μια διαμορφωμένη μονάδα ραδιοφώνου. Επαληθεύστε τη σύνδεση.",
@@ -716,6 +712,11 @@
             "LogLevel": "Log Level",
             "DefaultLevel": "Default log level",
             "Module": "Module",
+            "Module_CORE": "Κεντρικό μέρος",
+            "Module_hoymiles": "Ραδιοφωνική επικοινωνία Hoymiles",
+            "Module_mqtt": "Πελάτης MQTT",
+            "Module_network": "Δίκτυο",
+            "Module_webapi": "Διεπαφή Web",
             "CoreHint": "Warning: A too detailed log level of the CORE module can significantly impact performance and lead to unpredictable behavior. The log level setting should only be temporarily adjusted for targeted troubleshooting. The default setting 'Error' is sufficient for normal operation.",
             "log_inherit": "Inherit from default",
             "log_none": "None",
