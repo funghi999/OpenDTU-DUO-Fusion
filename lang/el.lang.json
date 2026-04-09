@@ -650,7 +650,7 @@
             "ErrorReporting": "Αναφορά σφαλμάτων",
             "ErrorReportingBody": "Αναφέρετε προβλήματα χρησιμοποιώντας τη δυνατότητα που παρέχεται από το <a href=\"https://github.com/tbnobody/OpenDTU/issues\" target=\"_blank\">Github</a>",
             "Discussion": "Συζήτηση",
-            "DiscussionBody": "Συζητήστε μαζί μας στο <a href=\"https://discord.gg/46hWaXsn\" target=\"_blank\">Discord</a> ή στο <a href=\"https://github.com/tbnobody /OpenDTU/discussions\" target=\"_blank\">Github</a>"
+            "DiscussionBody": "Συζητήστε μαζί μας στο <a href=\"https://discord.gg/CmhuZwWZM2\" target=\"_blank\">Discord</a> ή στο <a href=\"https://github.com/tbnobody/OpenDTU/discussions\" target=\"_blank\">Github</a>"
         },
         "hints": {
             "RadioProblem": "Δεν ήταν δυνατή η σύνδεση σε μια διαμορφωμένη μονάδα ραδιοφώνου. Επαληθεύστε τη σύνδεση.",
@@ -717,6 +717,8 @@
             "Module_mqtt": "Πελάτης MQTT",
             "Module_network": "Δίκτυο",
             "Module_webapi": "Διεπαφή Web",
+            "Module_async_ws": "Async WebSockets",
+            "Module_async_tcp": "Async TCP",
             "CoreHint": "Warning: A too detailed log level of the CORE module can significantly impact performance and lead to unpredictable behavior. The log level setting should only be temporarily adjusted for targeted troubleshooting. The default setting 'Error' is sufficient for normal operation.",
             "log_inherit": "Inherit from default",
             "log_none": "None",

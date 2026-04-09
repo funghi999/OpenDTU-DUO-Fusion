@@ -635,7 +635,7 @@
         "ErrorReporting": "Fehlerberichte",
         "ErrorReportingBody": "Bitte melde Probleme über die Ticketverwaltung von <a href=\"https://github.com/funghi999/OpenDTU-DUO-Fusion/issues\" target=\"_blank\">Github</a>.",
         "Discussion": "Diskussion",
-        "DiscussionBody": "Diskutiere mit uns auf <a href=\"https://discord.gg/WzhxEY62mB\" target=\"_blank\">Discord</a> oder <a href=\"https://github.com/funghi999/OpenDTU-DUO-Fusion/discussions\" target=\"_blank\">Github</a>"
+        "DiscussionBody": "Diskutiere mit uns auf <a href=\"https://discord.gg/CmhuZwWZM2\" target=\"_blank\">Discord</a> oder <a href=\"https://github.com/tbnobody/OpenDTU/discussions\" target=\"_blank\">Github</a>"
     },
     "hints": {
         "RadioProblem": "Es konnte keine Verbindung zu einem der konfigurierten Funkmodule hergestellt werden. Bitte überprüfe die Verdrahtung.",
@@ -701,6 +701,8 @@
         "Module_mqtt": "MQTT Client",
         "Module_network": "Netzwerk",
         "Module_webapi": "Web API",
+        "Module_async_ws": "Async WebSockets",
+        "Module_async_tcp": "Async TCP",
         "CoreHint": "Achtung: Eine zu detaillierte Protokollierungsstufe des ESP-IDF-Kern-Moduls kann die Performanz signifikant beeinträchtigen und zu unvorhersehbarem Verhalten führen. Die Log-Level-Einstellung sollte nur bei gezielter Fehlersuche temporär angepasst werden. Die Standardeinstellung 'Fehler' ist für den normalen Betrieb ausreichend.",
         "log_inherit": "Von Standard erben",
         "log_none": "Keine",

@@ -635,7 +635,7 @@
         "ErrorReporting": "Error Reporting",
         "ErrorReportingBody": "Please report issues using the feature provided by <a href=\"https://github.com/funghi999/OpenDTU-DUO-Fusion/issues\" target=\"_blank\">Github</a>",
         "Discussion": "Discussion",
-        "DiscussionBody": "Discuss with us on <a href=\"https://discord.gg/WzhxEY62mB\" target=\"_blank\">Discord</a> or <a href=\"https://github.com/funghi999/OpenDTU-DUO-Fusion/discussions\" target=\"_blank\">Github</a>"
+        "DiscussionBody": "Discuss with us on <a href=\"https://discord.gg/CmhuZwWZM2\" target=\"_blank\">Discord</a> or <a href=\"https://github.com/tbnobody/OpenDTU/discussions\" target=\"_blank\">Github</a>"
     },
     "hints": {
         "RadioProblem": "Could not connect to a configured radio module. Please check the wiring.",
@@ -702,6 +702,8 @@
         "Module_mqtt": "MQTT Client",
         "Module_network": "Network",
         "Module_webapi": "Web API",
+        "Module_async_ws": "Async WebSockets",
+        "Module_async_tcp": "Async TCP",
         "CoreHint": "Warning: A too detailed log level of the ESP-IDF Core module can significantly impact performance and lead to unpredictable behavior. The log level setting should only be temporarily adjusted for targeted troubleshooting. The default setting 'Error' is sufficient for normal operation.",
         "log_inherit": "Inherit from default",
         "log_none": "None",
